@@ -11,7 +11,7 @@ const app = express();
 
 // middleware
 app.use(cors({
-    origin:"http://51.21.169.133:5000",
+    origin:"http://51.21.169.133:3000",
     credentials: true
 }));
 app.use(express.json());
